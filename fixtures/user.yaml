@@ -1,0 +1,28 @@
+App\Entity\User:
+    user1:
+        email: 'basil.collette@outlook.fr'
+        firstName: 'basil'
+        lastName: 'collette'
+        createdAt: <dateTimeToDateTimeImmutable(<datetime('now')>)>
+        updatedAt: <dateTimeToDateTimeImmutable(<datetime('now')>)>
+        password: <encodePassword("123456")>
+        username: 'basilco'
+        groupe: '@groupe*'
+    user2:
+        email: 'admin@gmail.fr'
+        firstName: 'admin'
+        lastName: 'admin'
+        createdAt: <dateTimeToDateTimeImmutable(<datetime('now')>)>
+        updatedAt: <dateTimeToDateTimeImmutable(<datetime('now')>)>
+        password: <encodePassword("123456")>
+        username: 'admin'
+        groupe: '@groupe*'
+    user{3..10}:
+        email: <email()>
+        firstName: <firstname()>
+        lastName: <lastname()>
+        createdAt: <dateTimeToDateTimeImmutable(<datetime()>)>
+        updatedAt: <dateTimeToDateTimeImmutable(<datetime()>)>
+        password: <encodePassword("123456")>
+        username: <name()>
+        groupe: '@groupe*'

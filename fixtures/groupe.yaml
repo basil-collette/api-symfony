@@ -1,0 +1,5 @@
+App\Entity\Groupe:
+    groupe{1..10}:
+        name: '<name()>'
+        createdAt: <dateTimeToDateTimeImmutable(<datetime()>)>
+        updatedAt: <dateTimeToDateTimeImmutable(<datetime()>)>

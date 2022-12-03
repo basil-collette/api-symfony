@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\config",
+    "\\config\\jwt",
+    "\\fixtures",
+    "\\src",
+    "\\src\\Controller",
+    "\\src\\Entity",
+    "\\src\\OpenApi",
+    "\\var",
+    "\\var\\cache"
+  ],
+  "SelectedNode": "\\src\\OpenApi\\JwtDecorator.php",
+  "PreviewInSolutionExplorer": false
+}
